@@ -1,5 +1,6 @@
-require 'payment'
-require 'invoice_processor'
+require "ostruct"
+require_relative 'payment'
+require_relative 'invoice_processor'
 
 user = OpenStruct.new(name: "Ahmed", country: "EG", email: "ahmed@mail.com")
 items = [

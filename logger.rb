@@ -5,6 +5,6 @@ class Logger
 
   # temp dummy implementation
   def log_invoice(name, total)
-    file_content += "User: #{name}, Total: #{total}"
+    @file_content += "User: #{name}, Total: #{total}"
   end
 end

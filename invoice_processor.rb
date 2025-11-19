@@ -1,6 +1,6 @@
-require 'tax_calculator'
-require 'logger'
-require 'email_sender'
+require_relative 'tax_calculator'
+require_relative 'logger'
+require_relative 'email_sender'
 
 class InvoiceProcessor
   def initialize(user, items, payment_method)
